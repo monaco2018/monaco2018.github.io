@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0">
+  <title>index-copy</title>
+  <link rel="stylesheet" href="css/standardize.css">
+  <link rel="stylesheet" href="css/index-copy-grid.css">
+  <link rel="stylesheet" href="css/index-copy.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script type="text/javascript">
+ $(document).ready(function(){
+    $("#menu").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top - 150;
+        $('body,html').animate({scrollTop: top}, 1500);
+    });
+});
+</script>
+ 
+</head>
+<body class="body page-index-copy clearfix">
+  <div class="container container-1">
+    <div class="container container-2 clearfix">
+      <div class="container container-3 clearfix">
+        <p onClick="window.location='index.html';" class="text text-1">Путешественник.ру</p>
+        <input class="_input" name="Поиск" placeholder="Монако" type="search">
+        <div onClick="window.location='https://www.instagram.com/?hl=ru';" class="container container-4"></div>
+        <div onClick="window.location='https://www.facebook.com/login.php?skip_api_login=1&api_key=174860119197011&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fv2.6%2Fdialog%2Foauth%3Fredirect_uri%3Dhttps%253A%252F%252Ftonkosti.ru%252Foauth%252Flogin_with_facebook.php%26state%3D1527530124-94d3ea%26scope%3Demail%26client_id%3D174860119197011%26ret%3Dlogin%26logger_id%3D9b550235-c4ef-b059-7302-f54f9d13a6a6&cancel_url=https%3A%2F%2Ftonkosti.ru%2Foauth%2Flogin_with_facebook.php%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D1527530124-94d3ea%23_%3D_&display=page&locale=ru_RU&logger_id=9b550235-c4ef-b059-7302-f54f9d13a6a6';" class="container container-5"></div>
+      </div>
+      <div class="container container-6"></div>
+      <div class="container container-7 clearfix">
+        <div class="text text-2">
+          <p>1. Княжество Монако — самое маленькое государство в мире, не считая Ватикана.
+</p>
+          <p>2. Плотность населения в Монако, однако, при этом самая высокая</p>
+          <p>3. Площадь Монако — всего два квадратных километра.</p>
+          <p>4. Около тридцати тысяч работающих в Монако иностранцев каждый день ездит сюда на работу из Франции</p>
+          <p>5. Четверо из пяти жителей Монако — приезжие.
+</p>
+          <p>6. Если княжеская династия в Монако по каким-либо причинам прервётся, государство перейдёт под французское управление.</p>
+          <p>7. Защиту княжества осуществляет Франция.
+</p>
+          <p>8. Монако — одна из немногих стран, где при съёмках фильмов можно использовать боевое оружие.</p>
+          <p>9. У Монако нет внешнего государственного долга.
+</p>
+          <p>10. Гражданам этой страны запрещено посещать казино. Все казино предназначены только для иностранцев.
+</p>
+          <p>11. В Монако всего лишь один университет.<br></p>
+</div>
+      </div>
+      <p class="text text-3">Интересные факты о Монако</p>
+      <div class="container container-8 clearfix">
+        <p class="text text-4">ПШП,2018</p>
+        <div class="container container-9"></div>
+      </div>
+    </div>
+  </div>
+  <div class="wrapper"><iframe width="100%" height="100%" src="http://www.youtube.com/embed/1oqBBh8XUEo" frameborder="0" allowfullscreen></iframe></div>
+</body>
+</html>
